@@ -28,9 +28,9 @@
 (global-set-key (kbd "M-`") 'other-frame)
 
 ;; M-return for frame maximization toggle
-(global-set-key (kbd "<M-return>") 'toggle-frame-maximized)
+(global-set-key (kbd "<C-M-return>") 'toggle-frame-maximized)
 (with-eval-after-load 'org
-  (define-key org-mode-map (kbd "<M-return>") 'toggle-frame-maximized))
+  (define-key org-mode-map (kbd "<C-M-return>") 'toggle-frame-maximized))
 
 
 
